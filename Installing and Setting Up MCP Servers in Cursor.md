@@ -1,0 +1,83 @@
+## Step 1: Open Cursor and Start a New Project
+
+- [ ] Launch Cursor on your system.
+- [ ] Open an empty project to prepare for MCP setup.
+
+## Step 2: Access Cursor Settings
+
+- [ ] Click on the top-left menu.
+- [ ] Navigate to Cursor Settings.
+- [ ] Locate the MCP (Model Context Protocol) section.
+
+## Step 3: Add MCP Servers to Cursor
+
+### Option 1: GitHub MCP Server Setup
+
+- [ ] Open GitHub.com and log into your account.
+- [ ] Click on your profile icon (top right) and select **Settings**.
+- [ ] Scroll down to **Developer Settings** and click on **Personal Access Tokens**.
+- [ ] Click on **Generate new token** (Fine-grained access token recommended).
+- [ ] Name your token **Cursor MCP** and set an expiration date.
+- [ ] Select **All Repositories** for broad access or specify individual repositories.
+- [ ] Grant the following permissions:
+  - [ ] **Administration: Read & Write**
+  - [ ] **Commit Statuses: Read & Write**
+  - [ ] **Contents: Read & Write**
+  - [ ] **Issues: Read & Write**
+- [ ] Click **Generate Token** and copy it immediately (it will not be shown again).
+- [ ] In **Cursor Settings > MCP**, click **Add new MCP**.
+- [ ] Enter a name (**GitHub MCP**) and paste the generated token.
+- [ ] Click **Generate Command** and copy the command.
+- [ ] Open Cursor, navigate to **MCP Setup**, paste the command, and run it.
+- [ ] Once the setup completes, your GitHub MCP is ready to use.
+
+### Option 2: Installing Browser Tools MCP
+
+- [ ] Visit the repository page for **Browser Tools MCP** and copy the **Git Clone command**.
+- [ ] Open **Cursor Agent** and enter:
+  ```sh
+  Run this terminal command: <Git Clone Command>
+  ```
+- [ ] Once cloned, locate the extension folder and open **Manage Extensions** in your browser.
+- [ ] Enable **Developer Mode**.
+- [ ] Click **Load Unpacked** and select the Chrome Extension folder from the cloned repo.
+- [ ] Return to **Cursor Settings > MCP** and click **Add new MCP**.
+- [ ] Give it a name (**Browser Tools MCP**) and enter the setup command.
+- [ ] Click **Add** and ensure the MCP turns green (indicating a successful setup).
+- [ ] Start the Browser Tools MCP server by running the given command in **Cursor Agent**.
+
+## Step 4: Enable YOLO Mode (Optional, but Recommended)
+
+- [ ] Go to **Cursor Settings > Features**.
+- [ ] Scroll down to **Enable YOLO Mode** and turn it on.
+- [ ] This allows Cursor to execute MCP commands without needing manual approvals.
+
+## Step 5: Testing MCP Servers in Cursor
+
+### Testing GitHub MCP
+
+- [ ] Open Cursor and start a new agent chat.
+- [ ] Enter: `Create a new GitHub repository named 'TestRepo'.`
+- [ ] Verify that the repository was successfully created by checking GitHub.
+
+### Testing Browser Tools MCP
+
+- [ ] Open a website in your browser.
+- [ ] Press `F12` to open **DevTools**.
+- [ ] Click the **Browser Tools MCP** tab.
+- [ ] Run: `Capture Screenshot` or `Get Console Logs` to verify MCP functionality.
+
+## Conclusion
+
+- [ ] Congratulations! You’ve successfully installed and configured MCP servers in Cursor.
+- [ ] These tools can significantly enhance your development workflow by automating GitHub interactions and improving browser debugging.
+
+## Next Steps for Your YouTube Video
+
+- [ ] Show **Cursor installation** and how to access MCP settings.
+- [ ] Walk through the **GitHub MCP setup**, highlighting permissions and security best practices.
+- [ ] Demonstrate **Browser Tools MCP installation** and debugging a webpage using it.
+- [ ] Explain **YOLO mode** and why it’s useful.
+- [ ] End with a **real-use case demo** of MCPs in action.
+
+This structured approach will make your video engaging and informative for viewers who want to leverage MCPs efficiently!
