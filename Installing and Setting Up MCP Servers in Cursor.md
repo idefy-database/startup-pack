@@ -1,36 +1,37 @@
 ## Step 1: Open Cursor and Start a New Project
 
-- [ ] Launch Cursor on your system.
-- [ ] Open an empty project to prepare for MCP setup.
+- [x] Launch Cursor on your system. ✅ 2025-03-08
+- [x] Open an empty project to prepare for MCP setup. ✅ 2025-03-08
 
 ## Step 2: Access Cursor Settings
 
-- [ ] Click on the top-left menu.
-- [ ] Navigate to Cursor Settings.
-- [ ] Locate the MCP (Model Context Protocol) section.
+- [x] Click on the top-left menu. ✅ 2025-03-08
+- [x] Navigate to Cursor Settings. ✅ 2025-03-08
+- [x] Locate the MCP (Model Context Protocol) section. ✅ 2025-03-08
 
 ## Step 3: Add MCP Servers to Cursor
 
 ### Option 1: GitHub MCP Server Setup
 
-- [ ] Open GitHub.com and log into your account.
-- [ ] Click on your profile icon (top right) and select **Settings**.
-- [ ] Scroll down to **Developer Settings** and click on **Personal Access Tokens**.
-- [ ] Click on **Generate new token** (Fine-grained access token recommended).
-- [ ] Name your token **Cursor MCP** and set an expiration date.
-- [ ] Select **All Repositories** for broad access or specify individual repositories.
-- [ ] Grant the following permissions:
-  - [ ] **Administration: Read & Write**
-  - [ ] **Commit Statuses: Read & Write**
-  - [ ] **Contents: Read & Write**
-  - [ ] **Issues: Read & Write**
-- [ ] Click **Generate Token** and copy it immediately (it will not be shown again).
-- [ ] In **Cursor Settings > MCP**, click **Add new MCP**.
-- [ ] Enter a name (**GitHub MCP**) and paste the generated token.
-- [ ] Click **Generate Command** and copy the command.
-- [ ] Open Cursor, navigate to **MCP Setup**, paste the command, and run it.
-- [ ] Once the setup completes, your GitHub MCP is ready to use.
-
+- [x] Open Github.com and log into your account. ✅ 2025-03-08
+- [x] Click on your profile icon (top right) and select **Settings**. ✅ 2025-03-08
+- [x] Scroll down to **Developer Settings** and click on **Personal Access Tokens**. ✅ 2025-03-08
+- [x] Click on **Generate new token** (Fine-grained access token recommended). ✅ 2025-03-08
+- [x] Name your token **Cursor MCP** and set an expiration date. ✅ 2025-03-08
+- [x] Select the Resource Owner to your profile where you want to create repositories in. ✅ 2025-03-08
+- [x] Select **All Repositories** for broad access or specify individual repositories. ✅ 2025-03-08
+Grant the following permissions:
+  - [x] **Administration: Read & Write** ✅ 2025-03-08
+  - [x] **Commit Statuses: Read & Write** ✅ 2025-03-*08*
+  - [x] **Contents: Read & Write** ✅ 2025-03-08
+  - [x] **Issues: Read & Write** ✅ 2025-03-08
+- [x] Click **Generate Token** and copy it immediately (it will not be shown again). ✅ 2025-03-08
+- [x] Open Smithery.ai and login with you GitHub account. Smithery will allow you to access, manage, and deploy MCP servers. ✅ 2025-03-08
+- [x] Select the Github MCP Server. ✅ 2025-03-08
+- [x] Insert the Github generated token under the Cursor tab, click **Generate Command** and copy the command. ✅ 2025-03-08
+- [x] Go back to the **Cursor Settings > MCP**, click **Add new MCP**. ✅ 2025-03-08
+- [x] Enter a name (**GitHub MCP**) and paste the generated command. Add in front of the generated command *cmd /c*. The final command should look like this: *cmd /c npx -y @smithery*. ✅ 2025-03-08
+- [x] Once the setup completes, your GitHub MCP is ready to use. ✅ 2025-03-08
 ### Option 2: Installing Browser Tools MCP
 
 - [ ] Visit the repository page for **Browser Tools MCP** and copy the **Git Clone command**.
