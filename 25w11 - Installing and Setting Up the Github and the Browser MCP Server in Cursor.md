@@ -26,21 +26,18 @@ Grant the following permissions:
 - [ ] Select the Github MCP Server.
 - [ ] Insert the Github generated token under the Cursor tab, click **Generate Command** and copy the command.
 - [ ] Go back to the **Cursor Settings > MCP**, click **Add new MCP**.
-- [ ] Enter a name (**GitHub MCP**) and paste the generated command. Add in front of the generated command *cmd /c* if not already present. The final command should look like this: *cmd /c npx -y @smithery*.
+- [ ] Enter a name (**GitHub MCP**) and paste the generated command. Only for Windows: add in front of the generated command *cmd /c* if not already present. The final command should look like this: *cmd /c npx -y @smithery*.
 - [ ] Once the setup completes, your GitHub MCP is ready to use.
 ### Option 2: Installing Browser Tools MCP
-- [ ] Visit the repository page for **Browser Tools MCP** and copy the repository.
-- [ ] Open **Cursor Agent** and enter:
-  ```sh
-  Run this terminal command: <Git Clone Command>
-  ```
-- [ ] Once cloned, locate the extension folder and open **Manage Extensions** in your browser.
-- [ ] Enable **Developer Mode**.
-- [ ] Click **Load Unpacked** and select the Chrome Extension folder from the cloned repo.
-- [ ] Return to **Cursor Settings > MCP** and click **Add new MCP**.
-- [ ] Give it a name (**Browser Tools MCP**) and enter the setup command.
+- [ ] Visit the page for **Browser Tools MCP** [Installation - AgentDesk - BrowserToolsMCP](https://browsertools.agentdesk.ai/installation#installation)
+- [ ] Download the extension clicking on the link (In the future probably this step will get easier. For now the extension is not yet approved in the store).
+- [ ] Unzip the folder and remember its path 
+- [ ] Go to your browser (I tried with both Chrome and Edge) and open **Manage Extensions** in your browser.
+- [ ] Enable **Developer Mode** on the left side.
+- [ ] Click **Load Unpacked** and select the Chrome Extension folder from the downloaded folder.
+- [ ] Go now to your **Cursor Settings > MCP** and click **Add new MCP**.
+- [ ] Give it a name (**Browser Tools MCP**) and enter the setup command. For Windows: *cmd /c npx -y @agentdeskai/browser-tools-mcp@1.2.0*
 - [ ] Click **Add** and ensure the MCP turns green (indicating a successful setup).
-- [ ] Start the Browser Tools MCP server by running the given command in **Cursor Agent**.
 ## Step 4: Enable YOLO Mode (Optional, but Recommended)
 - [ ] Click on the top-left menu File > Preferences > Cursor Settings.
 - [ ] Navigate to Features.

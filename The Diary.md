@@ -1,2 +1,2 @@
-#### 2025-03-13
+#### 25w11d04
 This week I got into some issues in finding the time for streaming and video editing. My parents should have come to visit in China in April. We tried every possible way to get the plane tickets but we did not succeed. The payment did not go through after many attempts over different days. We have all lost so much time on the cause and this led to no time for the iDefy. I want to think that a bigger force stopped my family to come here because something negative would have happened. This is sad but it is what it is.
